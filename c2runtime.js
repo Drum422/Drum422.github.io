@@ -21880,5 +21880,7 @@ cr.getObjectRefTable = function () { return [
 	cr.behaviors.Bullet.prototype.acts.SetEnabled,
 	cr.plugins_.Sprite.prototype.acts.SetAnimSpeed,
 	cr.plugins_.Sprite.prototype.acts.SetCollisions,
+	cr.plugins_.Touch.prototype.cnds.IsTouchingObject,
+	cr.behaviors.Platform.prototype.acts.SimulateControl,
 	cr.plugins_.Touch.prototype.cnds.OnTapGestureObject
 ];};
